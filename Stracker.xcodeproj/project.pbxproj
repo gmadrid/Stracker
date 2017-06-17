@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B8822D1EF56BC200F44097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8822C1EF56BC200F44097 /* AppDelegate.swift */; };
+		C7B8822F1EF56BC200F44097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8822E1EF56BC200F44097 /* ViewController.swift */; };
+		C7B882311EF56BC200F44097 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B882301EF56BC200F44097 /* Document.swift */; };
+		C7B882331EF56BC200F44097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B882321EF56BC200F44097 /* Assets.xcassets */; };
+		C7B882361EF56BC200F44097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B882341EF56BC200F44097 /* Main.storyboard */; };
+		C7B882411EF56BC200F44097 /* StrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B882401EF56BC200F44097 /* StrackerTests.swift */; };
+		C7B8824C1EF56BC200F44097 /* StrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8824B1EF56BC200F44097 /* StrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7B8823D1EF56BC200F44097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B882211EF56BC200F44097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B882281EF56BC200F44097;
+			remoteInfo = Stracker;
+		};
+		C7B882481EF56BC200F44097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B882211EF56BC200F44097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B882281EF56BC200F44097;
+			remoteInfo = Stracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7B882291EF56BC200F44097 /* Stracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B8822C1EF56BC200F44097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7B8822E1EF56BC200F44097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7B882301EF56BC200F44097 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		C7B882321EF56BC200F44097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7B882351EF56BC200F44097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7B882371EF56BC200F44097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B8823C1EF56BC200F44097 /* StrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B882401EF56BC200F44097 /* StrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrackerTests.swift; sourceTree = "<group>"; };
+		C7B882421EF56BC200F44097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B882471EF56BC200F44097 /* StrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B8824B1EF56BC200F44097 /* StrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrackerUITests.swift; sourceTree = "<group>"; };
+		C7B8824D1EF56BC200F44097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B882261EF56BC200F44097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B882391EF56BC200F44097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B882441EF56BC200F44097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B882201EF56BC200F44097 = {
+			isa = PBXGroup;
+			children = (
+				C7B8822B1EF56BC200F44097 /* Stracker */,
+				C7B8823F1EF56BC200F44097 /* StrackerTests */,
+				C7B8824A1EF56BC200F44097 /* StrackerUITests */,
+				C7B8822A1EF56BC200F44097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B8822A1EF56BC200F44097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B882291EF56BC200F44097 /* Stracker.app */,
+				C7B8823C1EF56BC200F44097 /* StrackerTests.xctest */,
+				C7B882471EF56BC200F44097 /* StrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B8822B1EF56BC200F44097 /* Stracker */ = {
+			isa = PBXGroup;
+			children = (
+				C7B8822C1EF56BC200F44097 /* AppDelegate.swift */,
+				C7B8822E1EF56BC200F44097 /* ViewController.swift */,
+				C7B882301EF56BC200F44097 /* Document.swift */,
+				C7B882321EF56BC200F44097 /* Assets.xcassets */,
+				C7B882341EF56BC200F44097 /* Main.storyboard */,
+				C7B882371EF56BC200F44097 /* Info.plist */,
+			);
+			path = Stracker;
+			sourceTree = "<group>";
+		};
+		C7B8823F1EF56BC200F44097 /* StrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B882401EF56BC200F44097 /* StrackerTests.swift */,
+				C7B882421EF56BC200F44097 /* Info.plist */,
+			);
+			path = StrackerTests;
+			sourceTree = "<group>";
+		};
+		C7B8824A1EF56BC200F44097 /* StrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B8824B1EF56BC200F44097 /* StrackerUITests.swift */,
+				C7B8824D1EF56BC200F44097 /* Info.plist */,
+			);
+			path = StrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B882281EF56BC200F44097 /* Stracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B882501EF56BC200F44097 /* Build configuration list for PBXNativeTarget "Stracker" */;
+			buildPhases = (
+				C7B882251EF56BC200F44097 /* Sources */,
+				C7B882261EF56BC200F44097 /* Frameworks */,
+				C7B882271EF56BC200F44097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stracker;
+			productName = Stracker;
+			productReference = C7B882291EF56BC200F44097 /* Stracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7B8823B1EF56BC200F44097 /* StrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B882531EF56BC200F44097 /* Build configuration list for PBXNativeTarget "StrackerTests" */;
+			buildPhases = (
+				C7B882381EF56BC200F44097 /* Sources */,
+				C7B882391EF56BC200F44097 /* Frameworks */,
+				C7B8823A1EF56BC200F44097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B8823E1EF56BC200F44097 /* PBXTargetDependency */,
+			);
+			name = StrackerTests;
+			productName = StrackerTests;
+			productReference = C7B8823C1EF56BC200F44097 /* StrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7B882461EF56BC200F44097 /* StrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B882561EF56BC200F44097 /* Build configuration list for PBXNativeTarget "StrackerUITests" */;
+			buildPhases = (
+				C7B882431EF56BC200F44097 /* Sources */,
+				C7B882441EF56BC200F44097 /* Frameworks */,
+				C7B882451EF56BC200F44097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B882491EF56BC200F44097 /* PBXTargetDependency */,
+			);
+			name = StrackerUITests;
+			productName = StrackerUITests;
+			productReference = C7B882471EF56BC200F44097 /* StrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B882211EF56BC200F44097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "George Madrid";
+				TargetAttributes = {
+					C7B882281EF56BC200F44097 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZG5JDA6E6A;
+						ProvisioningStyle = Automatic;
+					};
+					C7B8823B1EF56BC200F44097 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZG5JDA6E6A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7B882281EF56BC200F44097;
+					};
+					C7B882461EF56BC200F44097 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZG5JDA6E6A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7B882281EF56BC200F44097;
+					};
+				};
+			};
+			buildConfigurationList = C7B882241EF56BC200F44097 /* Build configuration list for PBXProject "Stracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B882201EF56BC200F44097;
+			productRefGroup = C7B8822A1EF56BC200F44097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B882281EF56BC200F44097 /* Stracker */,
+				C7B8823B1EF56BC200F44097 /* StrackerTests */,
+				C7B882461EF56BC200F44097 /* StrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B882271EF56BC200F44097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B882331EF56BC200F44097 /* Assets.xcassets in Resources */,
+				C7B882361EF56BC200F44097 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B8823A1EF56BC200F44097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B882451EF56BC200F44097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B882251EF56BC200F44097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B8822F1EF56BC200F44097 /* ViewController.swift in Sources */,
+				C7B8822D1EF56BC200F44097 /* AppDelegate.swift in Sources */,
+				C7B882311EF56BC200F44097 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B882381EF56BC200F44097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B882411EF56BC200F44097 /* StrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B882431EF56BC200F44097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B8824C1EF56BC200F44097 /* StrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B8823E1EF56BC200F44097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B882281EF56BC200F44097 /* Stracker */;
+			targetProxy = C7B8823D1EF56BC200F44097 /* PBXContainerItemProxy */;
+		};
+		C7B882491EF56BC200F44097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B882281EF56BC200F44097 /* Stracker */;
+			targetProxy = C7B882481EF56BC200F44097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7B882341EF56BC200F44097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B882351EF56BC200F44097 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B8824E1EF56BC200F44097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7B8824F1EF56BC200F44097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C7B882511EF56BC200F44097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG5JDA6E6A;
+				INFOPLIST_FILE = Stracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scrawlsoft.Stracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C7B882521EF56BC200F44097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG5JDA6E6A;
+				INFOPLIST_FILE = Stracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scrawlsoft.Stracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C7B882541EF56BC200F44097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG5JDA6E6A;
+				INFOPLIST_FILE = StrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scrawlsoft.StrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stracker.app/Contents/MacOS/Stracker";
+			};
+			name = Debug;
+		};
+		C7B882551EF56BC200F44097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG5JDA6E6A;
+				INFOPLIST_FILE = StrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scrawlsoft.StrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stracker.app/Contents/MacOS/Stracker";
+			};
+			name = Release;
+		};
+		C7B882571EF56BC200F44097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG5JDA6E6A;
+				INFOPLIST_FILE = StrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scrawlsoft.StrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Stracker;
+			};
+			name = Debug;
+		};
+		C7B882581EF56BC200F44097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZG5JDA6E6A;
+				INFOPLIST_FILE = StrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scrawlsoft.StrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Stracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B882241EF56BC200F44097 /* Build configuration list for PBXProject "Stracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B8824E1EF56BC200F44097 /* Debug */,
+				C7B8824F1EF56BC200F44097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B882501EF56BC200F44097 /* Build configuration list for PBXNativeTarget "Stracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B882511EF56BC200F44097 /* Debug */,
+				C7B882521EF56BC200F44097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7B882531EF56BC200F44097 /* Build configuration list for PBXNativeTarget "StrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B882541EF56BC200F44097 /* Debug */,
+				C7B882551EF56BC200F44097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7B882561EF56BC200F44097 /* Build configuration list for PBXNativeTarget "StrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B882571EF56BC200F44097 /* Debug */,
+				C7B882581EF56BC200F44097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B882211EF56BC200F44097 /* Project object */;
+}

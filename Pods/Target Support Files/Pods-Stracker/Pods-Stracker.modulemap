@@ -1,0 +1,6 @@
+framework module Pods_Stracker {
+  umbrella header "Pods-Stracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

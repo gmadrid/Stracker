@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2229F7F1D7A540B399EC3E /* Pods_Stracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0415E14B3CAD9F588AEEEE /* Pods_Stracker.framework */; };
 		C7B8822D1EF56BC200F44097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8822C1EF56BC200F44097 /* AppDelegate.swift */; };
 		C7B8822F1EF56BC200F44097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8822E1EF56BC200F44097 /* ViewController.swift */; };
 		C7B882311EF56BC200F44097 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B882301EF56BC200F44097 /* Document.swift */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		434EC89E9E1C727DAC36D9AB /* Pods-Stracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stracker/Pods-Stracker.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9407B0A11BBEB739E762CD /* Pods-Stracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stracker/Pods-Stracker.release.xcconfig"; sourceTree = "<group>"; };
 		C7B882291EF56BC200F44097 /* Stracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B8822C1EF56BC200F44097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7B8822E1EF56BC200F44097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 		C7B882471EF56BC200F44097 /* StrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B8824B1EF56BC200F44097 /* StrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrackerUITests.swift; sourceTree = "<group>"; };
 		C7B8824D1EF56BC200F44097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B882591EF56F7600F44097 /* NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = NOTES.md; path = Stracker/NOTES.md; sourceTree = "<group>"; };
+		CD0415E14B3CAD9F588AEEEE /* Pods_Stracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E2229F7F1D7A540B399EC3E /* Pods_Stracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86BAD3E5F4D6393D7C2072C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0415E14B3CAD9F588AEEEE /* Pods_Stracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7B882201EF56BC200F44097 = {
 			isa = PBXGroup;
 			children = (
+				C7B882591EF56F7600F44097 /* NOTES.md */,
 				C7B8822B1EF56BC200F44097 /* Stracker */,
 				C7B8823F1EF56BC200F44097 /* StrackerTests */,
 				C7B8824A1EF56BC200F44097 /* StrackerUITests */,
 				C7B8822A1EF56BC200F44097 /* Products */,
+				F07C1A9BA9B58AE5206173A1 /* Pods */,
+				86BAD3E5F4D6393D7C2072C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,15 @@
 			path = StrackerUITests;
 			sourceTree = "<group>";
 		};
+		F07C1A9BA9B58AE5206173A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				434EC89E9E1C727DAC36D9AB /* Pods-Stracker.debug.xcconfig */,
+				4F9407B0A11BBEB739E762CD /* Pods-Stracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7B882501EF56BC200F44097 /* Build configuration list for PBXNativeTarget "Stracker" */;
 			buildPhases = (
+				9EBC38DC10BCAE5B685BF15B /* [CP] Check Pods Manifest.lock */,
 				C7B882251EF56BC200F44097 /* Sources */,
 				C7B882261EF56BC200F44097 /* Frameworks */,
 				C7B882271EF56BC200F44097 /* Resources */,
+				13AE3FF07E77481D6B10046A /* [CP] Embed Pods Frameworks */,
+				4EB2342A662D5FFBDC07A3AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13AE3FF07E77481D6B10046A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stracker/Pods-Stracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB2342A662D5FFBDC07A3AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stracker/Pods-Stracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBC38DC10BCAE5B685BF15B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7B882251EF56BC200F44097 /* Sources */ = {
@@ -404,6 +481,7 @@
 		};
 		C7B882511EF56BC200F44097 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434EC89E9E1C727DAC36D9AB /* Pods-Stracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -418,6 +496,7 @@
 		};
 		C7B882521EF56BC200F44097 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9407B0A11BBEB739E762CD /* Pods-Stracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -511,6 +590,7 @@
 				C7B882521EF56BC200F44097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7B882531EF56BC200F44097 /* Build configuration list for PBXNativeTarget "StrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +599,7 @@
 				C7B882551EF56BC200F44097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7B882561EF56BC200F44097 /* Build configuration list for PBXNativeTarget "StrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +608,7 @@
 				C7B882581EF56BC200F44097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

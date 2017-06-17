@@ -1,0 +1,19 @@
+PODS:
+  - CSV.swift (1.1.2)
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxSwift (3.5.0)
+
+DEPENDENCIES:
+  - CSV.swift (~> 1.1)
+  - RxCocoa (~> 3.4)
+  - RxSwift (~> 3.4)
+
+SPEC CHECKSUMS:
+  CSV.swift: 0aad3b06980034c8fa296456b708ac9128ebbdf9
+  RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+
+PODFILE CHECKSUM: 732ae8622ee45ac9cf3850249f40d850e325f2d6
+
+COCOAPODS: 1.2.1

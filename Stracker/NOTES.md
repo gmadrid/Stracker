@@ -16,3 +16,8 @@ Cash: Double
 Holdings: [Holding]
 
 
+* Site - I
+  * Reader - I
+    * foreach line:
+      * Look at fields to determine transaction type
+

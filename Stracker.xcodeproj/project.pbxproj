@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002CCF3125D83EB2A2913B29 /* Pods_StrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE05C896657B4DD9D94D24 /* Pods_StrackerTests.framework */; };
 		3E2229F7F1D7A540B399EC3E /* Pods_Stracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0415E14B3CAD9F588AEEEE /* Pods_Stracker.framework */; };
+		C752162A1EF76320005DACE3 /* OptionsHouseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75216291EF76320005DACE3 /* OptionsHouseParser.swift */; };
+		C752162C1EF7699C005DACE3 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C752162B1EF7699C005DACE3 /* Transaction.swift */; };
 		C7B8822D1EF56BC200F44097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8822C1EF56BC200F44097 /* AppDelegate.swift */; };
 		C7B8822F1EF56BC200F44097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8822E1EF56BC200F44097 /* ViewController.swift */; };
 		C7B882311EF56BC200F44097 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B882301EF56BC200F44097 /* Document.swift */; };
@@ -15,6 +18,7 @@
 		C7B882361EF56BC200F44097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B882341EF56BC200F44097 /* Main.storyboard */; };
 		C7B882411EF56BC200F44097 /* StrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B882401EF56BC200F44097 /* StrackerTests.swift */; };
 		C7B8824C1EF56BC200F44097 /* StrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8824B1EF56BC200F44097 /* StrackerUITests.swift */; };
+		C7E2642F1EF754EF00469771 /* OptionsHouseParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2642E1EF754EF00469771 /* OptionsHouseParserTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* Begin PBXFileReference section */
 		434EC89E9E1C727DAC36D9AB /* Pods-Stracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stracker/Pods-Stracker.debug.xcconfig"; sourceTree = "<group>"; };
 		4F9407B0A11BBEB739E762CD /* Pods-Stracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stracker/Pods-Stracker.release.xcconfig"; sourceTree = "<group>"; };
+		97165704B6C542177EEBDA41 /* Pods-StrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StrackerTests/Pods-StrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C75216291EF76320005DACE3 /* OptionsHouseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsHouseParser.swift; sourceTree = "<group>"; };
+		C752162B1EF7699C005DACE3 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		C7B882291EF56BC200F44097 /* Stracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B8822C1EF56BC200F44097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7B8822E1EF56BC200F44097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +58,10 @@
 		C7B8824B1EF56BC200F44097 /* StrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrackerUITests.swift; sourceTree = "<group>"; };
 		C7B8824D1EF56BC200F44097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7B882591EF56F7600F44097 /* NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = NOTES.md; path = Stracker/NOTES.md; sourceTree = "<group>"; };
+		C7E2642E1EF754EF00469771 /* OptionsHouseParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsHouseParserTest.swift; sourceTree = "<group>"; };
 		CD0415E14B3CAD9F588AEEEE /* Pods_Stracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFE05C896657B4DD9D94D24 /* Pods_StrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A49B0C71573819849AF49F /* Pods-StrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StrackerTests/Pods-StrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002CCF3125D83EB2A2913B29 /* Pods_StrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				CD0415E14B3CAD9F588AEEEE /* Pods_Stracker.framework */,
+				CEFE05C896657B4DD9D94D24 /* Pods_StrackerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,12 +126,14 @@
 		C7B8822B1EF56BC200F44097 /* Stracker */ = {
 			isa = PBXGroup;
 			children = (
+				C7E2642D1EF714B100469771 /* SItes */,
 				C7B8822C1EF56BC200F44097 /* AppDelegate.swift */,
 				C7B8822E1EF56BC200F44097 /* ViewController.swift */,
 				C7B882301EF56BC200F44097 /* Document.swift */,
 				C7B882321EF56BC200F44097 /* Assets.xcassets */,
 				C7B882341EF56BC200F44097 /* Main.storyboard */,
 				C7B882371EF56BC200F44097 /* Info.plist */,
+				C752162B1EF7699C005DACE3 /* Transaction.swift */,
 			);
 			path = Stracker;
 			sourceTree = "<group>";
@@ -129,6 +143,7 @@
 			children = (
 				C7B882401EF56BC200F44097 /* StrackerTests.swift */,
 				C7B882421EF56BC200F44097 /* Info.plist */,
+				C7E2642E1EF754EF00469771 /* OptionsHouseParserTest.swift */,
 			);
 			path = StrackerTests;
 			sourceTree = "<group>";
@@ -142,11 +157,22 @@
 			path = StrackerUITests;
 			sourceTree = "<group>";
 		};
+		C7E2642D1EF714B100469771 /* SItes */ = {
+			isa = PBXGroup;
+			children = (
+				C75216291EF76320005DACE3 /* OptionsHouseParser.swift */,
+			);
+			name = SItes;
+			path = Sites;
+			sourceTree = "<group>";
+		};
 		F07C1A9BA9B58AE5206173A1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				434EC89E9E1C727DAC36D9AB /* Pods-Stracker.debug.xcconfig */,
 				4F9407B0A11BBEB739E762CD /* Pods-Stracker.release.xcconfig */,
+				97165704B6C542177EEBDA41 /* Pods-StrackerTests.debug.xcconfig */,
+				D6A49B0C71573819849AF49F /* Pods-StrackerTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -178,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7B882531EF56BC200F44097 /* Build configuration list for PBXNativeTarget "StrackerTests" */;
 			buildPhases = (
+				F43A6012F5CB92096A34F0A6 /* [CP] Check Pods Manifest.lock */,
 				C7B882381EF56BC200F44097 /* Sources */,
 				C7B882391EF56BC200F44097 /* Frameworks */,
 				C7B8823A1EF56BC200F44097 /* Resources */,
+				2C23B1BD74A14AB438BA51A5 /* [CP] Embed Pods Frameworks */,
+				E029CACCBDBFA4B7210C17C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,6 +330,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stracker/Pods-Stracker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2C23B1BD74A14AB438BA51A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StrackerTests/Pods-StrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4EB2342A662D5FFBDC07A3AA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,6 +375,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		E029CACCBDBFA4B7210C17C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StrackerTests/Pods-StrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43A6012F5CB92096A34F0A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -338,9 +412,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C752162A1EF76320005DACE3 /* OptionsHouseParser.swift in Sources */,
 				C7B8822F1EF56BC200F44097 /* ViewController.swift in Sources */,
 				C7B8822D1EF56BC200F44097 /* AppDelegate.swift in Sources */,
 				C7B882311EF56BC200F44097 /* Document.swift in Sources */,
+				C752162C1EF7699C005DACE3 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E2642F1EF754EF00469771 /* OptionsHouseParserTest.swift in Sources */,
 				C7B882411EF56BC200F44097 /* StrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +588,7 @@
 		};
 		C7B882541EF56BC200F44097 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97165704B6C542177EEBDA41 /* Pods-StrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +605,7 @@
 		};
 		C7B882551EF56BC200F44097 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A49B0C71573819849AF49F /* Pods-StrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

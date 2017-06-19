@@ -8,6 +8,10 @@ target 'Stracker' do
   # Pods for pdfsplitter
   pod 'RxSwift', '~> 3.4'
   pod 'RxCocoa', '~> 3.4'
-  pod 'CSV.swift', '~> 1.1'
+  pod 'CSV.swift', '~> 2.0'
+  
+  target 'StrackerTests' do
+    inherit! :search_paths
+  end
 
 end
